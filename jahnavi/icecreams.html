@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Icecream Parlour</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#Icecreams">Icecreams</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="Icecreams" class="icecream-parlour">
+        <h1>Our Icecream Parlour</h1>
+        <div class="parlour">
+            <div class="icecream-flavour">
+                <img src="https://dodladairy.com/wp-content/uploads/2024/03/icecream-65facbd6d4ff4-1008x1024.webp" alt="Chocolate Icecream">
+                <p>Chocolate Icecream</p>
+            </div>
+            <div class="icecream-flavour">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg" alt="Vanila Icecream">
+                <p>Vanila Icecream</p>
+            </div>
+            <div class="icecream-flavour">
+                <img src="https://img.lovepik.com/photo/48012/1252.jpg_wh860.jpg" alt="Strawberry Icecream">
+                <p>Strawberry Icecream</p>
+            </div>
+            <div class="icecream-flavour">
+                <img src="https://thekitchenmccabe.com/wp-content/uploads/2014/06/Mint-Chocolate-Ganache-Swirl-Ice-Cream-6-529x794.jpg" alt="Mint Icecream">
+                <p>Mint Icecream</p>
+            </div>
+            <div class="icecream-flavour">
+                <img src="https://img.freepik.com/premium-photo/ice-cream-cones-with-mixed-flavors_118124-39004.jpg"alt="family pack Icecream">
+                <p>Family pack Icecream</p>
+            </div>
+            <div class="icecream-flavour">
+                <img src="https://www.shutterstock.com/image-photo/butterscotch-ice-cream-bowl-600nw-2493331873.jpg"alt="Butterscotch Icecream">
+                <p>Butterscotch Icecream</p>
+            </div>
+            <!-- Add more Icecreams as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact-form">
+        <h1>Contact Us</h1>
+        <form id="contactForm" action="#" method="POST">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="todo-list" class="todo">
+        <h1>Dynamic To-Do List</h1>
+        <input type="text" id="new-task" placeholder="Enter a task">
+        <button id="add-task">Add Task</button>
+        <ul id="task-list"></ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Online Icecream Parlour</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
